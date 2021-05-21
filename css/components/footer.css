@@ -1,0 +1,29 @@
+.footer {
+    padding-bottom: 4em;
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link {
+    display: flex;
+    margin: 0;
+    text-align: left;
+}
+
+.footer__link li {
+    margin-right: 2.5em;
+}
+
+.footer__link--dropdown {
+    padding-left: 0;
+    margin-top: 1em;
+}
+
+.footer__link--dropdown li {
+    margin-top: 1em;
+}

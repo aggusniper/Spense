@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+a {
+    /* color: initial; */
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+/* img {
+    width: 100%;
+    height: auto;
+} */

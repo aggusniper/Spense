@@ -1,0 +1,33 @@
+.row {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.row__container {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row__container--division {
+    display: flex;
+    align-items: center;
+}
+
+.row__container--division-about-bg { 
+    border-radius: .5em;
+    background-color: var(--color-gray);
+}
+
+.row__container--division-features-bg {
+    background-color: var(--color-white);
+}
+.division-left {
+    flex: 50%;
+}
+.division-right {
+    flex: 50%;
+}

@@ -1,0 +1,11 @@
+.button {
+    font-weight: 500;
+    border: none;
+    padding: 1.5em 2em;
+    border-radius: .2em;
+}
+
+.button__black {
+    color: var(--color-white);
+    background-color: var(--color-black-light);
+}

@@ -1,0 +1,32 @@
+.image__words {
+    width: 150%;
+    padding: 4em 2em;
+    margin-left: 4em;
+}
+
+.image__description {
+    width: 160%;
+    height: 21.5em;
+    margin-left: -20em;
+}
+
+.image__description img {
+    width: 100%;
+    height: 100%;
+}
+
+.image__text-editor {
+    width: 120%;
+    height: 100%;
+    padding: 0 4em;
+}
+
+.image__text-editor img {
+    width: 100%;
+    height: 100%;
+}
+
+.image__text--description {
+    padding: 0 3em;
+    margin-top: -4em;
+}

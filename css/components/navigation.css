@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    font-weight: 700;
+    color: var(--color-black);
+}
+
+.nav__link {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    color: var(--color-black-light);
+}
+
+.nav__link li {
+    margin-left: .5em;
+}
+
+.nav__link li:nth-child(4n) {
+    margin-left: 10rem;
+}
+
+.nav__link li:last-child {
+    color: var(--color-white);
+}
+
+.nav__link li a {
+    display: block;
+    text-transform: capitalize;
+    color: inherit;
+    padding: 1em 1.5em;
+}
